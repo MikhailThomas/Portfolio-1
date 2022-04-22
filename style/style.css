@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-
+/* body */
+#home-body {
+    margin: 10px;
+    padding: 0;
+}
 /* Header */
 .header {
     overflow: hidden;
@@ -57,20 +61,19 @@
 
   /* footer */
   footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
     background: beige;
     height: 20%;
-    width: 100vw;
+    width: 100%;
     padding-top: 2%;
     color: rgb(197, 155, 39);
 }
 /* footer content */
 .footer-content{
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -87,7 +90,6 @@
 /* footer p content */
 .footer-content p{
     text-align: center;
-    max-width: 50%;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
@@ -97,7 +99,7 @@
 /* footer bottom */
 .footer-bottom{
     background: beige;
-    width: 100vw;
+    /* width: 100vw; */
     padding: 0;
     padding-bottom: 0;
     text-align: center;
@@ -109,6 +111,7 @@
     word-spacing: 2px;
     text-transform: capitalize;
     background: beige;
+    margin-right: 120px;
  }
  .footer-bottom span{
      text-transform: uppercase;
@@ -117,7 +120,7 @@
  }
 /* footer right */
 #footer-right {
-    width: 100vw;
+    /* width: 100vw; */
     padding: 0;
     padding-bottom: 0;
     text-align: center;
@@ -127,10 +130,132 @@
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+    margin-left: 120px;
 
 }
 #footer-right span{
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
+}
+/* footer left */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    color: rgb(197, 155, 39);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 100%;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: rgb(190, 115, 65);
+    color: white;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 4px;
+    padding: 20px;
+  }
+/*footer contact content */
+.contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* resume */
+#resume-picture{
+    margin:auto;
+    padding: auto;
+    text-align: center;
+    padding-bottom: 0%;
+    position: relative;
+}
+/* home */
+#home-body{
+    background-image: url(https://media.istockphoto.com/photos/beige-painted-stucco-wall-picture-id821791618?k=20&m=821791618&s=612x612&w=0&h=DctUxYjfNX43EttGMoD07VtIkWq4bTxeYXcxYWgk-wI=);
+}
+
+/* about */
+#about-header{
+  font-size: 18px;
+  color: rgb(190, 115, 65);
+  text-align: center;
+}
+#about-p{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#tester{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#joshe{
+  inline-size: 30%;
+  overflow: wrap;
+  border-style: solid;
+  border-color: rgb(190, 115, 65);
+  color: rgb(190, 115, 65);
+  margin-left: 5%;
+  margin-bottom: 10px;
+  background-color: beige;
+  text-align: center;
+}
+#joshe-pic{
+  text-align: center;
+}
+#Cameron{
+  inline-size: 30%;
+  overflow: wrap;
+  border-style: solid;
+  border-color: rgb(190, 115, 65);
+  color: rgb(190, 115, 65);
+  margin-left: 20%;
+  margin-bottom: 10px;
+  background-color: beige;
+  text-align: center;
+}
+#Cameron-pic{
+  text-align: center;
+}
+/* home */
+#home-pic {
+  margin: auto;
+}
+#my-pic{
+  text-align: center;
+  padding: 10px;
+}
+.responsive{
+  height: auto;
+  max-width:400px;
+  width: 100%;
+}
+/* projects */
+
+#rainbow{
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+.responsive-2{
+  height: auto;
+  max-width: 400px;
+  width: 100%;
 }
